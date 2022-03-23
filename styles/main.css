@@ -14,10 +14,14 @@
  * {
 	 box-sizing: border-box;
 }
+::-webkit-scrollbar {
+    display: none;
+}
  body {
 	 font-family: "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 	 background-color: #242526;
 	 color: #E4E6EB;
+	 overflow-y: scroll;
 }
  h1, h2 {
 	 font-weight: 600;
